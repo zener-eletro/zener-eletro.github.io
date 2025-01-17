@@ -1,43 +1,46 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
-
+  <link rel="icon" href="favicon.png" sizes="32x32">
+  <title>ZENER Serviço Técnico</title>
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
+<div class="navbar-fixed">
+  <nav class="grey lighten-3" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo"><img alt="" src="zener_preto.png"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="../site/">Home</a></li>
+        <li><a href="../site/localiza/">Localização</a></li>
+        <li><a href="https://zenertec.sualojaonline.app/">Loja</a></li>
+        <li><a href="http://zenertec.duckdns.org:8008/moodle/">Cursos</a></li>
+        <li><a href="http://zenertec.duckdns.org:8008/moodle/login/">Alunos</a></li>
       </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
-  <div id="index-banner" class="parallax-container">
+</div>
+ 	  <ul id="nav-mobile" class="sidenav">
+        <li><a href="../site/">Home</a></li>
+        <li><a href="../site/localiza/">Localização</a></li>
+        <li><a href="https://zenertec.sualojaonline.app/">Loja</a></li>
+        <li><a href="http://zenertec.duckdns.org:8008/moodle/">Cursos</a></li>
+        <li><a href="http://zenertec.duckdns.org:8008/moodle/login/">Alunos</a></li>
+      </ul>  <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <!-- 
+          <h5 class="header col s12 light">Tecnologia</h5>
+         -->
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
@@ -45,34 +48,34 @@
 
 
   <div class="container">
-    <div class="section">
+    <div class="section center">
 
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <h2 class="black-text"><i class="material-icons">settings_suggest</i></h2>
+            <h5>Desenvolvimento</h5>
+            <p class="light">Automação residencial e desenvolvimento de sistemas embarcados microcontrolados (Microchip, Atmel, Arduino).</p>
+            <a href="https://api.whatsapp.com/send?phone=5511986219352" id="download-button" class="btn-large waves-effect waves-light blue">Consulte</a>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <h2 class="black-text"><i class="material-icons">construction</i></h2>
+            <h5>Manutenção</h5>
+            <p class="light">Realizamos manutenção preventiva e corretiva de diversos aparelhos eletrônicos profissionais e domesticos.</p>
+            <a href="https://api.whatsapp.com/send?phone=5511986219352" id="download-button" class="btn-large waves-effect waves-light blue">Consulte</a>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <h2 class="black-text"><i class="material-icons">school</i></h2>
+            <h5>Treinamento</h5>
+            <p class="light">Em parceria com a "METAS cursos livres", oferecemos diversos cursos relacionados com a eletrônica.</p>
+            <a href="http://zenertec.duckdns.org:8008/moodle/" id="download-button" class="btn-large waves-effect waves-light blue">Visite</a>
           </div>
         </div>
       </div>
@@ -80,76 +83,55 @@
     </div>
   </div>
 
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <!-- 
+          <h5 class="header col s12 light">Conhecimento</h5>
+         -->
         </div>
       </div>
     </div>
     <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer class="page-footer teal">
+  <footer class="page-footer blue darken-1">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+        <div class="col l3 s12">
+          <h5 class="white-text">ZENER Serviço Técnico</h5>
+          <p class="grey-text text-lighten-4">Araritaguaba, 959 1º andar. <br> Vila Maria-SP CEP: 02122-011</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Redes Sociais:</h5>
+          			<a href="https://web.facebook.com/zenerservitec"><img src="face.png"></a>&nbsp&nbsp
+          			<a href="http://www.instagram.com/zenerservitec"><img src="insta.png"></a>&nbsp&nbsp
+          			<a href="https://www.youtube.com/channel/UCY_xxL9vh6CUw9ws40qv7pQ"><img src="yutu.png"></a>&nbsp&nbsp
+          			<a href="https://github.com/3du4rd0BM"><img src="github.png"></a>          			
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Nossas Parcerias:</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><img src="METAS CLARA TRANSPARENTE 50h.png"></li>
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text">Projetos DIY:</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="https://github.com/3du4rd0BM/Sensor-Eletronico-TRS-A604-41TE">- Sensor TRS eletrônico A604 41TE.</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      	Made by: <a class="brown-text text-lighten-3" href="http://zenertec.duckdns.org:8008">ZENER inc.</a>
+      	<a class="grey-text text-lighten-2 right" href="#">
+      		<i class="material-icons hide-on-med-and-up">smartphone</i>
+      		<i class="material-icons hide-on-small-only hide-on-large-only">tablet</i>
+      		<i class="material-icons hide-on-med-and-down">computer</i></a>
       </div>
     </div>
   </footer>
